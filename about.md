@@ -1,45 +1,18 @@
 ---
-layout: article
-title: Layout - Article Header Overlay Background Image (Immersive + Translucent Header)
-key: layout-article-header-overlay-background-image-ITH
-cover: /docs/assets/images/axure/layout-article-header-overlay-background-image-immersive-translucent-header.png
-mode: immersive
-header:
-  type: translucent
-  theme: dark
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: /docs/assets/images/cover3.jpg
+layout: page
+title: About
+permalink: /about/
 ---
 
-A post has an article header overlay with a image in immersive mode with a translucent header.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-<!--more-->
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-<style>
-  .page__header .logo path {
-    fill: rgba(255, 255, 255, .95);
-  }
-</style>
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
-**front matter:**
 
-    ---
-    layout: article
-    title: Layout - Article Header Overlay Background Image (Immersive + Translucent Header)
-    mode: immersive
-    header:
-      type: translucent
-      theme: dark
-    article_header:
-      type: overlay
-      theme: dark
-      background_color: '#203028'
-      background_image:
-        gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-        src: /docs/assets/images/cover3.jpg
-    ---
+[jekyll-organization]: https://github.com/jekyll
