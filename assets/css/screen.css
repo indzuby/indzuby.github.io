@@ -490,6 +490,7 @@ for small screen(<720px):
 }
 
 #link-back {
+    color : #2b2b2b;
     padding-left: 17px; /* 17px = 10(spacing) + 7(icon width) */
     background: url(../images/pc/icon_larrow.png) no-repeat left;
     background-size: 7px 11px;
@@ -581,6 +582,7 @@ for small screen(<720px):
 }
 
 #post-list .post-excerpt {
+    color : #505050;
     margin-top: 22px;
     font-size: 14px;
     line-height: 24px; /* 24px = 14(font-size) + 10(line-spacing) */
@@ -641,15 +643,16 @@ a.tag {
     border: 1px solid #e6e6e6;
     border-radius: 4px;
     vertical-align: middle;
-    background-color: #fafafa;
-    color: #1e1e1e;
+    background-color: #1c1c29;
+    color: #ececec !important;
     font-size: 12px;
     line-height: 24px; /* 24px = 26(height) - 2(border) */
+    text-decoration: none !important;
 }
 
 a.tag:active,
 a.tag:hover {
-    background-color: #e6e6e6;
+    background-color: #505050;
 }
 
 #pagination {
@@ -741,7 +744,7 @@ body.home-template {
 body.home-template #cover,
 body.archive-template #cover,
 body.page-template #cover {
-    height: 560px;
+    height: 460px;
 }
 
 body.home-template #cover {
@@ -940,6 +943,7 @@ body.tag-template #navbar {
 #post-content a {
     text-decoration: underline;
     text-decoration-color: #e6e6e6;
+    color : #505050;
 }
 
 #post-content > *:first-child {
@@ -988,6 +992,7 @@ body.tag-template #navbar {
 
 #author-name {
     position: absolute;
+    color : #505050;
     top: 44px; /* 120 = a + (14 + 6 + 12) + a, a = (120 - (14 + 6 + 12)) / 2, a = 44px */
     left: 75px; /* 75px = 60(#author-image width) + 15(spacing) */
     margin: 0;
@@ -1004,6 +1009,7 @@ body.tag-template #navbar {
 
 #post-more {
     position: absolute;
+    color:#505050;
     top: 0;
     right: 0;
     height: 120px;
