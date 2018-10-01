@@ -473,6 +473,10 @@ for small screen(<720px):
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+#content #cover{
+    margin: 0 80px;
+    width: calc(100% - 160px);
+}
 
 /* navbar */
 
@@ -1324,6 +1328,11 @@ body.page-template {
 
     #cover h1 + p {
         padding-top: 10px !important;
+    }
+
+    #content #cover{
+        margin : 0;
+        width: 100%;
     }
 
     /* navbar */
