@@ -1002,6 +1002,9 @@ body.tag-template #navbar {
     margin: 0;
     font-size: 14px;
 }
+#author-name:hover{
+    text-decoration: underline;
+}
 
 #post-date {
     position: absolute;
@@ -1009,6 +1012,7 @@ body.tag-template #navbar {
     left: 75px; /* 75px = (#author-name left) */
     margin: 0;
     font-size: 12px;
+    color : #505050;
 }
 
 #post-more {

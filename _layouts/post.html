@@ -8,19 +8,16 @@ layout: default
  -->
 
 <div id="content" class="container post" role="main">
-    <div id="post-footer">
-        {% assign author = site.authors | where: 'name', page.author | first %}
-        <a id="post-author" href="{{ author.url }}">
-            <div id="author-image" {% if author.image %}style="background-image:url({ author.image});"{% endif %}>   
-                <span class="sr-only">{{ author.name }}'s profile image</span>
-            </div>
-            <p id="author-name">{{ author.name }}</p>
-        </a>
-        <p id="post-date">{{ page.date | date: '%Y-%m-%d %H:%M' }}</p>
-        <a id="post-more" href="{{ author.url }}">
-            <span>Read more posts by this author</span>
-        </a>
-    </div>
+        <div id="post-footer">
+            <a id="post-author" href="{{ author.url }}">
+            {% assign author = site.authors | where: 'name', page.author | first %}
+                <div id="author-image" {% if author.image %}style="background-image:url({ author.image});"{% endif %}>   
+                    <span class="sr-only">{{ author.name }}'s profile image</span>
+                </div>
+                <p id="author-name">{{ author.name }}</p>
+            </a>
+            <p id="post-date">{{ page.date | date: '%B %-d, %Y %H:%M' }}</p>
+        </div>
     <div id="cover" class="container"
          {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
         <div>
