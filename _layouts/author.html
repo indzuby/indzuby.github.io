@@ -1,12 +1,7 @@
 ---
 layout: default
 ---
-<div id="navbar" class="container">
-    <h5><a id="link-back" href="/">Main</a></h5>
-    {% include share.html %}
-</div>
-
-<div id="cover" class="container"
+<div id="cover" class="container-fluid"
      {% if page.cover %}style="background-image: url({{ page.cover }});"{% endif %}>
     <div>
         <div id="cover-author-image"
