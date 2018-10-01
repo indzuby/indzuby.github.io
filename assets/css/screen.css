@@ -1232,7 +1232,7 @@ body.page-template {
 
     #menu > li.active, #menu > li:hover {
         border-bottom: none;
-        background-color: #f4f4f4;
+        background-color: #454545;
     }
 
     #menu > li > a {
